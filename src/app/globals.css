@@ -6,13 +6,39 @@
   
   /* Design System Colors - Tambahkan warna sesuai kebutuhan dari Figma */
   /* Contoh struktur warna yang bisa digunakan */
-  --color-purple-500: #a855f7;
-  --color-purple-600: #9333ea;
-  --color-gray-100: #f3f4f6;
-  --color-gray-200: #e5e7eb;
-  --color-gray-500: #6b7280;
-  --color-gray-600: #4b5563;
-  --color-gray-900: #111827;
+
+  /* Base */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-card: #0f0f0f;
+
+  /* Primary */
+  --color-primary-100: #a78bfa;
+  --color-primary-200: #8b5cf6;
+  --color-primary-300: #7c3aed;
+
+  /* Neutral */
+  --color-neutral-25: #fdfdfd;
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e9eaeb;
+  --color-neutral-300: #d5d7da;
+  --color-neutral-400: #a4a7ae;
+  --color-neutral-500: #717680;
+  --color-neutral-600: #535862;
+  --color-neutral-700: #414651;
+  --color-neutral-800: #252b37;
+  --color-neutral-900: #181d27;
+  --color-neutral-950: #0a0d12;
+
+  /* Additional */
+  --color-purple-400: #a78bfa;
+  --color-purple-500: #8b5cf6;
+  --color-purple-600: #7c3aed;
+  --color-pink-600: #db2777;
+  --color-cyan-500: #06b6d4;
+  --color-green-500: #22c55e;
+  --color-yellow-500: #eab308;
 }
 
 @theme inline {
@@ -24,6 +50,7 @@
   /* Custom spacing dengan 1px ratio (1:1 bukan 1:4) */
   /* p-1 = 1px, p-4 = 4px, p-16 = 16px */
   /* Spacing sudah dikonfigurasi di tailwind.config.ts */
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,3 +65,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
